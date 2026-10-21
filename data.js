@@ -108,3 +108,15 @@ const SESSIONS = [
     ],
   },
 ];
+
+// 실습 파일 — 첫 화면 '실습 파일' 칸과 PART 3 영업자료 분석 아래에 함께 표시됩니다.
+// 파일은 files/ 폴더에 두고, 받을 때는 name(한글 파일명)으로 저장됩니다.
+const PRACTICE_FILES = {
+  part: 3,
+  anchor: "session_3.html#practice-files",
+  sets: [
+    { no: 1, title: "실습 · 영업자료 분석 → Canvas 교육자료", files: [
+      { name: "삼성 행복플러스 연금보험(2601)(적립형, 무배당).pdf", href: "files/samsung_happyplus_annuity_2601.pdf", type: "상품 약관 · 246쪽 · 2.4MB" },
+    ]},
+  ],
+};
