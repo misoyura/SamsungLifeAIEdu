@@ -57,13 +57,13 @@ a{color:inherit}
 .brandbar{background:#fff;border-bottom:1px solid var(--line)}
 .brandbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:72px;padding-top:12px;padding-bottom:12px}
 .brandbar img{display:block;height:38px;width:auto;max-width:46%;object-fit:contain}
-.brandbar .logo-samsung{height:34px}
+.brandbar .logo-samsung{height:40px}
 .page-session .brandbar .wrap{min-height:60px}
-.page-session .brandbar img{height:30px}.page-session .brandbar .logo-samsung{height:27px}
-@media (max-width:640px){.brandbar img{height:26px}.brandbar .logo-samsung{height:22px}.page-session .brandbar img{height:22px}.page-session .brandbar .logo-samsung{height:19px}}
+.page-session .brandbar img{height:30px}.page-session .brandbar .logo-samsung{height:32px}
+@media (max-width:640px){.brandbar img{height:26px}.brandbar .logo-samsung{height:26px}.page-session .brandbar img{height:22px}.page-session .brandbar .logo-samsung{height:22px}}
 .org-logos{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:28px}
 .org-logos img{display:block;height:48px;width:auto;max-width:100%;object-fit:contain}
-.org-logos img + img{height:40px}
+.org-logos img + img{height:44px}
 
 /* ───────── index sections ───────── */
 .page-index main{margin-top:-64px;position:relative;z-index:2}
