@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>방카슈랑스 AI 실무 프롬프트</title>
+<meta name="description" content="삼성생명 · 생성형 AI 기반 방카슈랑스 영업관리 실무 혁신 — 강의 실습 프롬프트 자료실 (강사 김진희 대표)">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="page-index">
+
+<div class="brandbar">
+  <div class="wrap">
+    <img src="images/logo-kiea.png" alt="한국강사교육협회 KOREA INSTRUCTOR EDUCATION ASSOCIATION" class="logo-kiea">
+    <img src="images/logo-samsunglife.png" alt="삼성생명" class="logo-samsung">
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="kicker">삼성생명 · 금융 영업관리자 과정</span>
+    <h1>생성형 AI 기반<br><em>방카슈랑스 영업관리</em><br>실무 혁신</h1>
+    <p class="sub">금융 영업관리자를 위한 생성형 AI 실전 활용법 — 강의에서 쓰는 모든 실습 프롬프트와 프로젝트 지침을 PART별로 정리했습니다. 필요한 프롬프트를 찾아 <b>복사</b> 버튼 한 번으로 바로 붙여넣으세요.</p>
+    <div class="chips">
+      <span class="chip instructor">강사 <b>김진희 대표</b></span>
+      <span class="chip">한국강사교육협회 · 삼성생명</span>
+      <span class="chip">Gemini · ChatGPT</span>
+    </div>
+    <div class="hero-stats">
+      <div><strong>4</strong><span>PART</span></div>
+      <div><strong id="total-prompts">28</strong><span>실습 프롬프트</span></div>
+      <div><strong>6</strong><span>업무별 프로젝트 지침</span></div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <section class="sec" id="parts">
+      <div class="part-grid" id="part-grid"></div>
+    </section>
+
+    <section class="sec" id="openchat">
+      <div class="sec-head">
+        <div>
+          <span class="eyebrow-s">Open Chat</span>
+          <h2>삼성생명 카카오톡 오픈채팅방 (실습)</h2>
+        </div>
+        <p>실습 자료와 결과물 공유에 사용합니다. 강의 시작 전에 입장해 주세요.</p>
+      </div>
+      <div class="inst">
+        <div class="inst-box qr-box">
+          <img src="images/kakao-openchat-qr.jpg" alt="삼성생명 실습용 카카오톡 오픈채팅방 입장 QR 코드">
+          <ol>
+            <li>카카오톡 실행</li>
+            <li>상단 오른쪽 <b>스캔</b> 아이콘 터치</li>
+            <li>왼쪽 QR 코드를 스캔해 입장</li>
+          </ol>
+        </div>
+        <div class="inst-box">
+          <h3>준비물</h3>
+          <p class="role">실습은 Gemini와 ChatGPT를 함께 사용합니다</p>
+          <ul>
+            <li><span>Gemini</span>구글 계정 로그인 · 구글 워크스페이스 연결 활성화 (PART 2)</li>
+            <li><span>ChatGPT</span>구글 계정으로 로그인 · 데이터 학습 비활성화 (PART 4)</li>
+            <li><span>실습 자료</span>분석할 상품설명서 파일 (PART 3 영업자료 분석)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="library">
+      <div class="sec-head">
+        <div>
+          <span class="eyebrow-s">Prompt Library</span>
+          <h2>프롬프트 바로 찾기</h2>
+        </div>
+        <p>제목을 누르면 해당 프롬프트로 이동합니다.</p>
+      </div>
+      <div class="lib">
+        <div class="lib-tools">
+          <label class="search"><input id="lib-search" type="search" placeholder="예: 메타프롬프트, 안내문, 회의, 지침, 포스터" aria-label="프롬프트 검색"></label>
+          <div class="filters" id="lib-filters"></div>
+        </div>
+        <div id="lib-list"></div>
+      </div>
+    </section>
+
+    <section class="sec" id="guide">
+      <div class="sec-head">
+        <div>
+          <span class="eyebrow-s">How to use</span>
+          <h2>이렇게 사용하세요</h2>
+        </div>
+      </div>
+      <div class="inst">
+        <div class="inst-box">
+          <ul>
+            <li><span>01</span>PART 카드 또는 위 목록에서 필요한 프롬프트를 고릅니다.</li>
+            <li><span>02</span>금색 상자의 <b>복사</b> 버튼을 눌러 Gemini·ChatGPT에 붙여넣습니다.</li>
+            <li><span>03</span>[ ] 안의 내용은 내 업무 상황에 맞게 바꿔 씁니다.</li>
+            <li><span>04</span>강의 페이지 상단 <b>프롬프트만 보기</b>로 프롬프트만 모아 볼 수 있습니다.</li>
+          </ul>
+        </div>
+        <div class="inst-box">
+          <h3>꼭 지킬 것</h3>
+          <p class="role">AI는 초안을 빠르게 만들고, 최종 판단과 책임은 사람이 맡습니다</p>
+          <ul>
+            <li><span>개인정보</span>고객명·연락처·주민등록번호·계좌번호·계약번호는 입력하지 않습니다.</li>
+            <li><span>내부정보</span>미공개 실적·영업전략·내부문서는 외부 AI에 그대로 올리지 않습니다.</li>
+            <li><span>공식자료 검증</span>금리·보장·해약환급금·세금·상품조건은 공식자료로 재확인합니다.</li>
+            <li><span>사내 규정</span>회사에서 허용한 AI·보안·준법 기준 범위 안에서 사용합니다.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="contact">
+      <div class="sec-head">
+        <div>
+          <span class="eyebrow-s">Organized by</span>
+          <h2>교육 주관 · 문의</h2>
+        </div>
+      </div>
+      <div class="inst">
+        <div class="inst-box org-logos">
+          <img src="images/logo-kiea.png" alt="한국강사교육협회">
+          <img src="images/logo-samsunglife.png" alt="삼성생명">
+        </div>
+        <div class="inst-box">
+          <div class="contact">
+            <div><span class="k">강사</span>김진희 대표 · 한국강사교육협회</div>
+            <a href="mailto:chatgpt.edu119@gmail.com"><span class="k">EMAIL</span>chatgpt.edu119@gmail.com</a>
+            <a href="https://www.chatgpt1st.co.kr" target="_blank" rel="noopener"><span class="k">WEB</span>www.chatgpt1st.co.kr</a>
+            <div><span class="k">CAFE</span>네이버 카페 ‘한국강사교육협회’ — 더 많은 AI 소식과 교육을 만나보세요.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer id="site-footer"></footer>
+<div id="toast">복사되었습니다 ✓</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script>initIndexPage();</script>
+</body>
+</html>
